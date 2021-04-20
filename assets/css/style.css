@@ -1,4 +1,6 @@
-/* GENERAL - MY CLASSES */
+/* ************************************* */
+/* ****** GENERAL - MY CLASSES ********* */
+/* ************************************* */
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
@@ -13,7 +15,7 @@ body {
 }
 
 .mc_bc_blue {
-  background-color: #1373AA;
+  background-color: #1373aa;
 }
 
 .mc_bc_whitesmoke {
@@ -28,7 +30,7 @@ body {
   padding: 15px 15px;
 }
 
-.mc_padding2{
+.mc_padding2 {
   padding: 2px;
 }
 
@@ -41,10 +43,12 @@ body {
 }
 /* END GENERAL - MY CLASSES */
 
-/* HEADER */
+/* ************************************* */
+/* ********     H E A D E R    ********* */
+/* ************************************* */
 
 /* navbar */
-.mc_navbar {
+#my_nav .mc_navbar {
   border-radius: 0;
   border: 0;
   border-top: 1px solid black;
@@ -53,50 +57,50 @@ body {
   margin-bottom: 0;
 }
 
-.navbar-brand.mc_navbar_brand span {
+#my_nav .navbar-brand.mc_navbar_brand span {
   font-size: 1.5em;
 }
 
-.navbar-default .navbar-brand.mc_navbar_brand {
+#my_nav .navbar-default .navbar-brand.mc_navbar_brand {
   color: black;
 }
 
-.navbar-default .navbar-brand.mc_navbar_brand:hover {
+#my_nav .navbar-default .navbar-brand.mc_navbar_brand:hover {
   color: coral;
 }
 
-.navbar-default .navbar-toggle.collapsed.mc_navbar_collapsed {
+#my_nav .navbar-default .navbar-toggle.collapsed.mc_navbar_collapsed {
   border-color: black;
   background-color: transparent;
 }
 
-.navbar-default .navbar-toggle:focus .icon-bar.mc_icon {
+#my_nav .navbar-default .navbar-toggle:focus .icon-bar.mc_icon {
   background-color: coral;
 }
 
-.navbar-default .navbar-toggle .icon-bar.mc_icon {
+#my_nav .navbar-default .navbar-toggle .icon-bar.mc_icon {
   background-color: chartreuse;
 }
 
-.navbar-default .navbar-nav>li:hover {
+.navbar-default .navbar-nav > li:hover {
   background-color: rgb(225, 229, 233);
 }
 
-.navbar-default .navbar-nav>li>a {
+#my_nav .navbar-default .navbar-nav > li > a {
   color: black;
   font-size: larger;
 }
 
-.navbar-default .navbar-nav>li:hover>a {
+#my_nav .navbar-default .navbar-nav > li:hover > a {
   color: coral;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default.mc_navbar {
+#my_nav .navbar-default .navbar-collapse,
+#my_nav .navbar-default.mc_navbar {
   border-color: black;
 }
 
-.navbar-nav {
+#my_nav .navbar-nav {
   margin: 0px -15px;
   background-color: white;
 }
@@ -123,7 +127,9 @@ body {
 
 /* END HEADER */
 
-/* MAIN */
+/* ************************************* */
+/* ***********    M A I N    *********** */
+/* ************************************* */
 
 /* link  */
 #links {
@@ -136,7 +142,7 @@ body {
 }
 
 #links a:hover {
-  color: coral
+  color: coral;
 }
 /* end link  */
 
@@ -146,18 +152,13 @@ body {
   margin-bottom: 30px;
 }
 
-
-#carousel .carousel_left{
+#carousel .carousel_left {
   background-color: rgba(17, 19, 17, 0.589);
   color: chartreuse;
   position: absolute;
   top: 50%;
   left: 10%;
-  z-index: 1;
-}
-
-#carousel .carousel_center {
-  /* background-color: rgb(238, 163, 144); */
+  cursor: pointer;
 }
 
 #carousel .carousel_center img {
@@ -168,15 +169,16 @@ body {
   display: inline-block;
 }
 
-#carousel .carousel_right{
+#carousel .carousel_right {
   background-color: rgba(17, 19, 17, 0.589);
   color: chartreuse;
   position: absolute;
   top: 50%;
   right: 10%;
+  cursor: pointer;
 }
 
-#carousel .nav_carousel{
+#carousel .nav_carousel {
   background-color: rgba(17, 19, 17, 0.589);
   color: white;
   position: absolute;
@@ -185,7 +187,6 @@ body {
   transform: translate(50%, -50%);
 }
 
-#carousel .nav_carousel .active{
+#carousel .nav_carousel .active {
   color: chartreuse;
 }
-
