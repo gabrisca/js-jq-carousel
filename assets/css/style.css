@@ -181,6 +181,8 @@ body {
 #carousel .nav_carousel {
   background-color: rgba(17, 19, 17, 0.589);
   color: white;
+  padding: 2px;
+  border-radius: 10px;
   position: absolute;
   bottom: 0;
   right: 50%;
