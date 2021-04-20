@@ -1,4 +1,4 @@
-
+/* GENERAL - MY CLASSES */
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
@@ -16,10 +16,22 @@ body {
   background-color: #1373AA;
 }
 
+.mc_bc_whitesmoke {
+  background-color: whitesmoke;
+}
+
+.mc_white {
+  color: white;
+}
+
 .mc_padding_row {
   padding: 15px 15px;
 }
+/* END GENERAL - MY CLASSES */
 
+/* HEADER */
+
+/* navbar */
 .mc_navbar {
   border-radius: 0;
   border: 0;
@@ -76,3 +88,46 @@ body {
   margin: 0px -15px;
   background-color: white;
 }
+/* end navbar */
+
+/* jumbotron */
+#jumbotron {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/Cities.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layover {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+/* end jumbotron */
+
+/* END HEADER */
+
+/* MAIN */
+
+/* link  */
+#links {
+  background-color: rgb(176, 189, 202);
+}
+
+#links a {
+  color: chartreuse;
+  text-shadow: 1px 1px 5px white;
+}
+
+#links a:hover {
+  color: coral
+}
+
+.mc_link {
+  border: 1px solid white;
+}
+/* end link  */
+
+/* carousel */
+
+/* end carousel */

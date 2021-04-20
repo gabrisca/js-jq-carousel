@@ -13,6 +13,12 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -24,7 +30,10 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <!-- HEADER -->
+    <header>
+      <!-- nav bar -->
+    <section class="container-fluid">
       <div class="row">
         <nav class="navbar navbar-default mc_navbar">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,12 +71,43 @@
             <!-- /.navbar-collapse -->
         </nav>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row mc_bc_blue mc_padding_row">
-        <h1 class="text-center">Welcome</h1>
+    </section>
+    <!-- end nav bar -->
+
+    <!-- jumbotron-->
+    <section class="container-fluid">
+      <div class="row mc_bc_blue">
+        <div id="jumbotron" class="col-xs-12">
+          <div class="layover">
+            <h1 class="text-center mc_white layover">Welcome</h1>
+          </div>
+        </div>
       </div> 
-    </div>
+    </section>
+    <!-- end jumbotron-->
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <main>
+      <!-- links-->
+    <section id="links" class="container-fluid mc_bc_whitesmoke">
+      <div class="row">
+        <div class="mc_link col-xs-12 col-sm-4 text-center"><a href="">LINK1</a></div>
+        <div class="mc_link col-xs-12 col-sm-4 text-center"><a href="">LINK2</a></div>
+        <div class="mc_link col-xs-12 col-sm-4 text-center"><a href="">LINK2</a></div>
+      </div>
+    </section>
+    <!-- end links-->
+
+    <!-- carousel -->
+    <section class="container-fluid">
+
+    </section>
+
+    <!-- end carousel -->
+    </main>
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
