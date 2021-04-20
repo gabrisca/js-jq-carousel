@@ -27,6 +27,18 @@ body {
 .mc_padding_row {
   padding: 15px 15px;
 }
+
+.mc_padding2{
+  padding: 2px;
+}
+
+.mc_link {
+  border: 1px solid white;
+}
+
+.mc_p_relative {
+  position: relative;
+}
 /* END GENERAL - MY CLASSES */
 
 /* HEADER */
@@ -63,7 +75,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar.mc_icon {
-  background-color: black;
+  background-color: chartreuse;
 }
 
 .navbar-default .navbar-nav>li:hover {
@@ -100,8 +112,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.layover {
+#jumbotron .layover {
   background-color: rgba(0, 0, 0, 0.055);
+}
+
+#jumbotron h1 {
+  font-size: 3em;
 }
 /* end jumbotron */
 
@@ -122,12 +138,54 @@ body {
 #links a:hover {
   color: coral
 }
-
-.mc_link {
-  border: 1px solid white;
-}
 /* end link  */
 
 /* carousel */
+#carousel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-/* end carousel */
+
+#carousel .carousel_left{
+  background-color: rgba(17, 19, 17, 0.589);
+  color: chartreuse;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 1;
+}
+
+#carousel .carousel_center {
+  /* background-color: rgb(238, 163, 144); */
+}
+
+#carousel .carousel_center img {
+  display: none;
+}
+
+#carousel .carousel_center img.active {
+  display: inline-block;
+}
+
+#carousel .carousel_right{
+  background-color: rgba(17, 19, 17, 0.589);
+  color: chartreuse;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+#carousel .nav_carousel{
+  background-color: rgba(17, 19, 17, 0.589);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+#carousel .nav_carousel .active{
+  color: chartreuse;
+}
+
